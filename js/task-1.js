@@ -9,11 +9,10 @@
 
 const names = ["Mango", "Poly", "Ajax", "Lux", "Jay", "Kong"];
 const numbers = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50];
-let message;
 
 const logItems = function (logItems) {
   for (let i = 0; i < logItems.length; i += 1) {
-    message = `${i + 1} - ${logItems[i]}`;
+    const message = `${i + 1} - ${logItems[i]}`;
     console.log(message);
   }
 };
